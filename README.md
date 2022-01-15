@@ -1,3 +1,5 @@
+# repire windows stats bug. 
+  in w32.go, change WSMinimizeBox = 0x00020000 to WSMinimizeBox = 0x00010000
 # go-webview2
 This is a proof of concept for embedding Webview2 into Go without CGo. It is based on [webview/webview](https://github.com/webview/webview) and provides a compatible API.
 
